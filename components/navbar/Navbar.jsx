@@ -14,7 +14,7 @@ function Navbar() {
         <li className="m-6">Blog</li>
         <li className="m-6">Login</li>
       </ul> */}
-      <div className="flex font-bold">
+      <div className="flex gap-[10px] items-center">
         <Links />
       </div>
     </nav>

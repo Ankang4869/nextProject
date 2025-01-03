@@ -21,9 +21,9 @@ const Links = () => {
   ];
 
   return (
-    links.map((link) => {
-      return <Link key={link.title} href={link.path}>{link.title}</Link>;
-    })
+      links.map((link) => {
+        return <Link key={link.title} href={link.path}>{link.title}</Link>;
+      })
   );
 };
 
